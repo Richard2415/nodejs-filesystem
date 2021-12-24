@@ -1,6 +1,6 @@
-# 5mf_node_api
-5 Minute Friday Node API
+# NodeJS-FileSystem
 
 `npm install`
+ 
+ nodemon index.js
 
-Please fork the code to your own repository.
