@@ -7,5 +7,6 @@
  #To see the output:
  clone the App and install all dependencies
  
- Enter URL:localhost:8888/people to see the data
+ live(welcome page): https://filesystem-nodejs-api.herokuapp.com/
 
+live(data page): https://filesystem-nodejs-api.herokuapp.com/people
