@@ -4,7 +4,7 @@ const data = require('./data')
 const api = express()
 
 const HOST = 'localhost'
-const port = 8888
+const port = process.env.PORT || 8888
 
 api.get('/', (req, res) => {
     res.send('Welcome to my API!')
@@ -15,4 +15,4 @@ api.get('/people', (req, res) => {
 })
 
 
-api.listen(process.env.PORT || port, () => console.log(`API running at ${HOST}:${port}!`))
+api.listen(port, () => console.log(`API running at ${HOST}:${port}!`))
